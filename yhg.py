@@ -1,6 +1,6 @@
 import socket
 import time
-
+while true
 print("""
  __     ___    _  _____ 
  \ \   / / |  | |/ ____|
@@ -66,3 +66,4 @@ elif startti.lower() == "attack":
 
         # Call the function to send packets until 'stop' is entered
         send_packets(target_ip, target_port, message_to_send)
+break
