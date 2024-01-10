@@ -1,8 +1,29 @@
+#by pellpoy and aallonpituus
+from os import system, name
+def clear():
+	if name == 'nt':
+		_ = system('cls')
+	else:
+		_ = system('clear')
+
+import os
 import socket
 import time
-while true
+
+print(""" 
+██╗ ██████╗░░██████╗░ █████╗░░ █████╗░ ███╗░░██╗ ███╗░░██╗ ███████╗ ██████╗░
+██║ ██╔══██╗██╔════╝ ██╔══██╗ ██╔══██╗ ████╗░██║ ████╗░██║ ██╔════╝ ██╔══██╗
+██║ ██████╔╝╚█████╗░ ██║░░╚═╝ ███████║ ██╔██╗██║ ██╔██╗██║ █████╗░░ ██████╔╝
+██║ ██╔═══╝░░╚═══██╗ ██║░░██╗ ██╔══██║ ██║╚████║ ██║╚████║ ██╔══╝░░ ██╔══██╗
+██║ ██║░░░░░██████╔╝ ╚█████╔╝ ██║░░██║ ██║░╚███║ ██║░╚███║ ███████╗ ██║░░██║
+╚═╝ ╚═╝░░░░░╚═════╝░░╚════╝░  ╚═╝░░╚═╝ ╚═╝░░╚══╝ ╚═╝░░╚══╝ ╚══════╝ ╚═╝░░╚═╝
+""")
+
+time.sleep(3)
+clear()
+
 print("""
- __     ___    _  _____ 
+__     ___    _  _____ 
  \ \   / / |  | |/ ____|
   \ \_/ /| |__| | |  __ 
    \   / |  __  | | |_ |
@@ -10,10 +31,10 @@ print("""
     |_|  |_|  |_|\_____|
 """)
 
-startti = input("Welcome\n\n")
+startti = input("Welcome to the YHG ip scanner and attacker FOR EDUCATIONAL PURPOSES, DO NOT USE THIS TO CAUSE HARM TO OTHERS. Type in scanner or attacker to begin.\n\n")
 
 if startti == "scanner":
-    print("Loading")
+    print("Wait some time")
     time.sleep(3)
     kysy = input("Start scanning? (yes/no)\n")
 
@@ -38,9 +59,9 @@ if startti == "scanner":
             print("IP address scanning canceled.")
 
 elif startti.lower() == "attack":
-    print("Loading")
+    print("Wait some time")
     time.sleep(3)
-    kysyy = input("Open attack program yes/no\n\n")
+    kysyy = input("Start the attack (yes/no)\n\n")
 
     if kysyy.lower() == "yes":
         def send_packets(ip, port, message):
@@ -66,4 +87,3 @@ elif startti.lower() == "attack":
 
         # Call the function to send packets until 'stop' is entered
         send_packets(target_ip, target_port, message_to_send)
-break
