@@ -1,10 +1,3 @@
-__     ___    _  _____ 
- \ \   / / |  | |/ ____|
-  \ \_/ /| |__| | |  __ 
-   \   / |  __  | | |_ |
-    | |  | |  | | |__| |
-    |_|  |_|  |_|\_____|
-
 This is the YHG ip scanner and attacker FOR EDUCATIONAL PURPOSES, DO NOT USE THIS TO CAUSE HARM TO OTHERS. We are not responsible for unlawful things done with this.
 ________________________________________________
 Windows:
