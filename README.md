@@ -18,6 +18,18 @@ python yhg.py
 ________________________________________________
 Commands:
 
+help
+
+exit
+
 scanner
 
 attack
+
+sniffer
+
+about
+
+neofetch
+
+my ip
