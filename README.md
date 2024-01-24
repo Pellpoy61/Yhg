@@ -12,7 +12,7 @@ pkg install wget
 
 pkg install python
 
-wget https://github.com/Pellpoy61/Yhg/releases/download/Python/yhg.py
+wget https://github.com/Pellpoy61/Yhg/releases/download/Coding/yhg.py
 
 python yhg.py
 ________________________________________________
