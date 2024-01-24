@@ -1,4 +1,4 @@
-.This is the YHG ip scanner and attacker FOR EDUCATIONAL PURPOSES, DO NOT USE THIS TO CAUSE HARM TO OTHERS. We are not responsible for unlawful things done with this.
+This is the YHG ip scanner and attacker FOR EDUCATIONAL PURPOSES, DO NOT USE THIS TO CAUSE HARM TO OTHERS. We are not responsible for unlawful things done with this.
 ________________________________________________
 Windows:
 Download python from python.org
@@ -12,7 +12,7 @@ pkg install wget
 
 pkg install python
 
-wget https://github.com/Pellpoy61/Yhg/releases/download/Yhg.py/yhg.py
+wget https://github.com/Pellpoy61/Yhg/releases/download/Python/yhg.py
 
 python yhg.py
 ________________________________________________
