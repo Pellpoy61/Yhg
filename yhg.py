@@ -1,4 +1,4 @@
-#by pellpoy and aallonpituus
+#by pellpoy
 from os import system, name
 def clear():
 	if name == 'nt':
